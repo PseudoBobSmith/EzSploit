@@ -44,14 +44,13 @@
     * Linux Servers
     * Windows Servers (Up to 2016)
 
-<!---
 <br>
 
 ## :camera: Screenshots 
-![](https://github.com/Z4nzu/hackingtool/blob/master/images/A00.png)
+![](https://github.com/stutghost/EzSploit/blob/master/README/Screenshot-01.png)
+![](https://github.com/stutghost/EzSploit/blob/master/README/Screenshot-02.png)
 
 ---
--->
 
 <br>
 
