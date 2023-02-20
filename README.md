@@ -19,26 +19,31 @@
 
 <br>
 
-## :toolbox: Functionalities and Compatibilities
+## :toolbox: Compatibilities
 
-- Windows Exploitation
+- Windows
     * Windows 8 (x64)
     * Windows 10 (x64/x86)
     * Windows 11 (x64/x86)
 
-- MaCOS Exploitation
+- MaCOS
     * MaC Catalina
     * MaC Big Sur
     * MaC Monterey
     * MaC Ventura
     * Other Versions...
     
-- Linux Exploitation
+- Linux
     * Ubuntu
     * Debian
     * Fedora
     * Mint
     * Other Versions...
+
+- Webserver
+    * Linux Servers
+    * Windows Servers
+
 <!---
 <br>
 
