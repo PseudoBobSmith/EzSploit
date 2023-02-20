@@ -47,8 +47,8 @@
 <br>
 
 ## :camera: Screenshots 
-![](https://github.com/stutghost/EzSploit/blob/master/README/Screenshot-01.png)
-![](https://github.com/stutghost/EzSploit/blob/master/README/Screenshot-02.png)
+![](https://github.com/stutghost/EzSploit/blob/master/README/ScreenShot-01.png)
+![](https://github.com/stutghost/EzSploit/blob/master/README/ScreenShot-02.png)
 
 ---
 
