@@ -40,9 +40,9 @@
     * Mint
     * Other Versions...
 
-- Webserver
+- Servers
     * Linux Servers
-    * Windows Servers
+    * Windows Servers (Up to 2016)
 
 <!---
 <br>
