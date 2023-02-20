@@ -83,7 +83,7 @@ kali@kali:~$ ```./ezsploit``` | Run the Script
 
 ~$ ```cd EzSploit``` | Go to EzSploit Folder
 
-~$ ```python install.py``` | Run the Script Installer
+~$ ```python termux_install.py``` | Run the Script Installer
 
 ~$ ```./ezsploit``` | Run the Script
 
