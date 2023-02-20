@@ -22,5 +22,5 @@ os.system("clear")
 from colorama import Fore, Style
 from pyfiglet import figlet_format
 print(Fore.GREEN + Style.BRIGHT + figlet_format("Done!", font = "smslant"))
-print(Fore.YELLOW + Style.BRIGHT + "[!]\t" + Fore.WHITE + "ezsploit" + Fore.WHITE + Style.NORMAL)
+print(Fore.YELLOW + Style.BRIGHT + "[!]\t" + Fore.WHITE + "./ezsploit" + Fore.WHITE + Style.NORMAL)
 print("")
