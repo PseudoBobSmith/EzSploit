@@ -73,7 +73,7 @@ kali@kali:~$ ```ezsploit``` | Run the Script
 <br>
 
 
-<h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg", width="25", height="25"/> Termux Installation</h2>
+<h2>:construction: :construction:  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg", width="25", height="25"/> Termux Installation :construction: :construction:</h2>
 
 ~$ ```pkg update``` | Update all repositories
 
