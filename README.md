@@ -67,7 +67,7 @@ kali@kali:~$ ```cd EzSploit``` | Go to EzSploit Folder
 
 kali@kali:~$ ```python3 linux_install.py``` | Run the Script Installer
 
-kali@kali:~$ ```sudo ezsploit``` | Run the Script with **root** Privileges
+kali@kali:~$ ```ezsploit``` | Run the Script
 
 
 <br>
@@ -121,4 +121,4 @@ kali@kali:~$ ```cd EzSploit``` | Go to EzSploit Folder
 
 kali@kali:~$ ```python3 linux_install.py``` | Run the Script Installer
 
-kali@kali:~$ ```sudo ezsploit``` | Run the Script with **root** Privileges
+kali@kali:~$ ```ezsploit``` | Run the Script
