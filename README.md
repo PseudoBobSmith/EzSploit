@@ -65,7 +65,7 @@ kali@kali:~$ ```git clone https://github.com/stutghost/EzSploit.git``` | Downloa
 
 kali@kali:~$ ```cd EzSploit``` | Go to EzSploit Folder
 
-kali@kali:~$ ```python3 linux_install.py``` | Run the Script Installer
+kali@kali:~$ ```python3 install.py``` | Run the Script Installer
 
 kali@kali:~$ ```./ezsploit``` | Run the Script
 
@@ -73,7 +73,7 @@ kali@kali:~$ ```./ezsploit``` | Run the Script
 <br>
 
 
-<h2>:construction: :construction:  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg", width="25", height="25"/> Termux Installation :construction: :construction:</h2>
+<h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg", width="25", height="25"/> Termux Installation</h2>
 
 ~$ ```pkg update``` | Update all repositories
 
@@ -83,7 +83,7 @@ kali@kali:~$ ```./ezsploit``` | Run the Script
 
 ~$ ```cd EzSploit``` | Go to EzSploit Folder
 
-~$ ```python termux_install.py``` | Run the Script Installer
+~$ ```python install.py``` | Run the Script Installer
 
 ~$ ```./ezsploit``` | Run the Script
 
@@ -119,6 +119,6 @@ kali@kali:~$ ```git clone https://github.com/stutghost/EzSploit.git``` | Downloa
 
 kali@kali:~$ ```cd EzSploit``` | Go to EzSploit Folder
 
-kali@kali:~$ ```python3 linux_install.py``` | Run the Script Installer
+kali@kali:~$ ```python3 install.py``` | Run the Script Installer
 
 kali@kali:~$ ```./ezsploit``` | Run the Script
