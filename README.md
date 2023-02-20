@@ -19,7 +19,7 @@
 
 <br>
 
-## :toolbox: Compatibilities
+## :toolbox: RAT Compatibility
 
 - Windows
     * Windows 8 (x64)
