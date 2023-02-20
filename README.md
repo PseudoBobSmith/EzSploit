@@ -26,11 +26,11 @@
     * Windows 10 (x64/x86)
     * Windows 11 (x64/x86)
 
-- MaCOS
-    * MaC Catalina
-    * MaC Big Sur
-    * MaC Monterey
-    * MaC Ventura
+- MacOS
+    * Mac Catalina
+    * Mac Big Sur
+    * Mac Monterey
+    * Mac Ventura
     * Other Versions...
     
 - Linux
