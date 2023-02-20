@@ -16,7 +16,7 @@ os.system("mkdir temp/listener/")
 os.system("python3 -m pip install colorama pyfiglet")
 os.system("sudo python3 -m pip install colorama")
 os.system("chmod +x ezsploit")
-os.system("rm README.md")
+os.system("rm README -r && rm README.md")
 os.system("clear")
 
 from colorama import Fore, Style
