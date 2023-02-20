@@ -65,7 +65,7 @@ kali@kali:~$ ```git clone https://github.com/stutghost/EzSploit.git``` | Downloa
 
 kali@kali:~$ ```cd EzSploit``` | Go to EzSploit Folder
 
-kali@kali:~$ ```python3 install.py``` | Run the Script Installer
+kali@kali:~$ ```python3 linux_install.py``` | Run the Script Installer
 
 kali@kali:~$ ```./ezsploit``` | Run the Script
 
@@ -119,6 +119,6 @@ kali@kali:~$ ```git clone https://github.com/stutghost/EzSploit.git``` | Downloa
 
 kali@kali:~$ ```cd EzSploit``` | Go to EzSploit Folder
 
-kali@kali:~$ ```python3 install.py``` | Run the Script Installer
+kali@kali:~$ ```python3 linux_install.py``` | Run the Script Installer
 
 kali@kali:~$ ```./ezsploit``` | Run the Script
