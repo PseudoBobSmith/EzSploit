@@ -12,7 +12,7 @@ def main():
  (\  /_---\\_\_        ,d08b.  '|`     
  `'-.                 0088MM            
   ,__)                '9MMP'              
-  ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
+  ''' + Fore.RED + Style.BRIGHT + "\t\tEzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
         
         os.system("rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*")
         os.system("clear")
