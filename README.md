@@ -7,9 +7,9 @@
 ![](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
 
 
-#### EzSploit is a tool that is able to create a RAT undetectable by Windows Defender, but also has the ability to create RAT's for MacOS and Linux both written in Bash, for size and kernel compatibility reasons. The RAT's are super light not even 1KB, but very powerful, this combined if put in the startup folders, is very well deployed and easy to access.
+#### EzSploit is a tool capable of creating a RAT currently undetectable by Windows Defender, but possible detection by other Anti-Virus. It also has the ability to create RAT's for MacOS and Linux both written in Bash, for kernel compatibility reasons and for their light size, the RAT's are super light not even 800B.
 
-#### But if the RAT is deployed in conjunction with a DDoS attack, remote connection will not be possible due to connection loss.
+#### It will not be possible to use the RAT if the target is under DDoS attack.
 
 <!---
 <br>
