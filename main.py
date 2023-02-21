@@ -6,16 +6,16 @@ def main():
     
     def framework():  
         logo = Fore.WHITE + '''
-                     _   _
+                    _   _
                     (q\_/p)
-                     /. .\         __
-              ,__   =\_t_/=      .'o O'-.
-                 )   /   \      / O o_.-`|   _   _
+                    /. .\         __
+            ,__   =\_t_/=      .'o O'-.
+                )   /   \      / O o_.-`|   _   _
                 (   ((   ))    /O_.-'  O |  (q\_/p)
-                 \  /\) (/\    | o   o  o|   /. .\.-"""""-.     ___,
-                  `-\  Y  /    |o   o O.-`  =\_t_/=     /  `\  (
-                     nn^nn     | O _.-'       )\ ))__ __\   |___)
-                               '--`          (/-(/`  `mm---'
+                \  /\) (/\    | o   o  o|   /. .\.-"""""-.     ___,
+                `-\  Y  /    |o   o O.-`  =\_t_/=     /  `\  (
+                    nn^nn     | O _.-'       )\ ))__ __\   |___)
+                            '--`          (/-(/`  `nn---'
 
                 ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
         
@@ -56,12 +56,18 @@ def main():
                                 print(Fore.GREEN + Style.NORMAL + "\tset lport")
                                 print(Fore.GREEN + Style.NORMAL + "\tset ratname")
                                 print(Fore.GREEN + Style.NORMAL + "\texploit/run")
+                                print(Fore.GREEN + Style.NORMAL + "\tlistener <OS>")
                                 print(Fore.GREEN + Style.NORMAL + "\tls <path>")
                                 print("")
                                 print(Fore.GREEN + Style.NORMAL + "Path: ")
                                 print(Fore.GREEN + Style.NORMAL + "\tWindows")
                                 print(Fore.GREEN + Style.NORMAL + "\tMacOS")
                                 print(Fore.GREEN + Style.NORMAL + "\tLinux")
+                                print("")
+                                print(Fore.GREEN + Style.NORMAL + "Operation System: ")
+                                print(Fore.GREEN + Style.NORMAL + "\twindows")
+                                print(Fore.GREEN + Style.NORMAL + "\tmac")
+                                print(Fore.GREEN + Style.NORMAL + "\tlinux")
                                 print("")
                                 print(Fore.RED + Style.NORMAL + "[~]\t" + Fore.RED + Style.NORMAL + "exit")
                                 windows()
@@ -162,6 +168,7 @@ def main():
                                 print(Fore.GREEN + Style.NORMAL + "\tset lport")
                                 print(Fore.GREEN + Style.NORMAL + "\tset ratname")
                                 print(Fore.GREEN + Style.NORMAL + "\texploit/run")
+                                print(Fore.GREEN + Style.NORMAL + "\tlistener <OS>")
                                 print(Fore.GREEN + Style.NORMAL + "\tls <path>")
                                 print("")
                                 print(Fore.GREEN + Style.NORMAL + "Path: ")
@@ -169,7 +176,12 @@ def main():
                                 print(Fore.GREEN + Style.NORMAL + "\tMacOS")
                                 print(Fore.GREEN + Style.NORMAL + "\tLinux")
                                 print("")
-                                print(Fore.RED + Style.NORMAL + "[~]\t" + Fore.RED + Style.NORMAL + "$ exit")
+                                print(Fore.GREEN + Style.NORMAL + "Operation System: ")
+                                print(Fore.GREEN + Style.NORMAL + "\twindows")
+                                print(Fore.GREEN + Style.NORMAL + "\tmac")
+                                print(Fore.GREEN + Style.NORMAL + "\tlinux")
+                                print("")
+                                print(Fore.RED + Style.NORMAL + "[~]\t" + Fore.RED + Style.NORMAL + "exit")
                                 mac()
                                 
                             elif cinput == "set lhost":
@@ -267,12 +279,18 @@ def main():
                                 print(Fore.GREEN + Style.NORMAL + "\tset lport")
                                 print(Fore.GREEN + Style.NORMAL + "\tset ratname")
                                 print(Fore.GREEN + Style.NORMAL + "\texploit/run")
+                                print(Fore.GREEN + Style.NORMAL + "\tlistener <OS>")
                                 print(Fore.GREEN + Style.NORMAL + "\tls <path>")
                                 print("")
                                 print(Fore.GREEN + Style.NORMAL + "Path: ")
                                 print(Fore.GREEN + Style.NORMAL + "\tWindows")
                                 print(Fore.GREEN + Style.NORMAL + "\tMacOS")
                                 print(Fore.GREEN + Style.NORMAL + "\tLinux")
+                                print("")
+                                print(Fore.GREEN + Style.NORMAL + "Operation System: ")
+                                print(Fore.GREEN + Style.NORMAL + "\twindows")
+                                print(Fore.GREEN + Style.NORMAL + "\tmac")
+                                print(Fore.GREEN + Style.NORMAL + "\tlinux")
                                 print("")
                                 print(Fore.RED + Style.NORMAL + "[~]\t" + Fore.RED + Style.NORMAL + "exit")
                                 linux()
