@@ -6,18 +6,17 @@ def main():
     
     def framework():  
         logo = Fore.WHITE + '''
-                    _   _
-                    (q\_/p)
-                    /. .\         __
-            ,__   =\_t_/=      .'o O'-.
-                )   /   \      / O o_.-`|   _   _
-                (   ((   ))    /O_.-'  O |  (q\_/p)
-                \  /\) (/\    | o   o  o|   /. .\.-"""""-.     ___,
-                `-\  Y  /    |o   o O.-`  =\_t_/=     /  `\  (
-                    nn^nn     | O _.-'       )\ ))__ __\   |___)
-                            '--`          (/-(/`  `nn---'
-
-                ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
+                                                    .----.
+                                        .---------. | == |           
+          (\_/)                         |.-"""""-.| |----|            
+  .-""-.-.-' a\            ,--.!,       ||       || | == |
+ /  \      _.--'        __/   -*-       ||       || |----|           
+(\  /_---\\_\_         ,d08b.  '|`       |'-.....-'| |::::|   
+ `'-.                 0088MM            `"")---(""` |___.|
+  ,__)                '9MMP'           /:::::::::::\" _  "
+                                      /:::=======:::\`\`\
+                                                             `"""""""""""""`  '-'
+                                                           ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
         
         os.system("rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*")
         os.system("clear")
