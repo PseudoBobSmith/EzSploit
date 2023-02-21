@@ -6,16 +6,17 @@ def main():
     
     def framework():  
         logo = Fore.WHITE + '''
-                    _   _
+                     _   _
                     (q\_/p)
-                    /. .\         __
-            ,__   =\_t_/=      .'o O'-.
-                )   /   \      / O o_.-`|   _   _
+                     /. .\         __
+              ,__   =\_t_/=      .'o O'-.
+                 )   /   \      / O o_.-`|   _   _
                 (   ((   ))    /O_.-'  O |  (q\_/p)
-                \  /\) (/\    | o   o  o|   /. .\.-"""""-.     ___,
-                `-\  Y  /    |o   o O.-`  =\_t_/=     /  `\  (
-                    nn^nn     | O _.-'       )\ ))__ __\   |___)
-                            '--`          (/-(/`  `mm---'
+                 \  /\) (/\    | o   o  o|   /. .\.-"""""-.     ___,
+                  `-\  Y  /    |o   o O.-`  =\_t_/=     /  `\  (
+                     nn^nn     | O _.-'       )\ ))__ __\   |___)
+                               '--`          (/-(/`  `mm---'
+
                 ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
         
         os.system("rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*")
