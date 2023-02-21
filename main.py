@@ -5,18 +5,14 @@ def main():
     os.system("clear")
     
     def framework():  
-        logo = Fore.WHITE + '''
-                                                    .----.
-                                        .---------. | == |           
-          (\_/)                         |.-"""""-.| |----|            
-  .-""-.-.-' a\            ,--.!,       ||       || | == |
- /  \      _.--'        __/   -*-       ||       || |----|           
-(\  /_---\\_\_         ,d08b.  '|`       |'-.....-'| |::::|   
- `'-.                 0088MM            `"")---(""` |___.|
-  ,__)                '9MMP'           /:::::::::::\" _  "
-                                      /:::=======:::\`\`\
-                                                             `"""""""""""""`  '-'
-                                                           ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
+        logo = Fore.WHITE + '''      
+                    (\_/)                               
+            .-""-.-.-' a\            ,--.!,       
+            /  \      _.--'        __/   -*-              
+            (\  /_---\\_\_         ,d08b.  '|`     
+            `'-.                 0088MM            
+            ,__)                '9MMP'        
+            ''' + Fore.RED + Style.BRIGHT + "EzSploit " + Fore.WHITE + "v1.0" + Style.NORMAL
         
         os.system("rm temp/windows/* && rm temp/macos/* && rm temp/linux/* && rm temp/server/*")
         os.system("clear")
