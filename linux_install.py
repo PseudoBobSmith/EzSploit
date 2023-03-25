@@ -1,4 +1,5 @@
 import os
+from time import sleep
 
 os.system("mkdir RAT")
 os.system("mkdir RAT/Windows")
@@ -19,6 +20,7 @@ os.system("chmod +x ezsploit")
 os.system("rm README -r && rm README.md")
 os.system("clear")
 
+sleep(3)
 from colorama import Fore, Style
 from pyfiglet import figlet_format
 print(Fore.GREEN + Style.BRIGHT + figlet_format("Done!", font = "smslant"))
